@@ -1,16 +1,63 @@
 .container {
     margin-right: 50px;
-    /* width: 50%; */
+    width: 70%;
+}
+
+.container-txt {
+  margin: 50px;
+  width: 70%;
 }
 .flexbox {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    height: 96px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
-  
+
+  /* Mobile view */
+@media screen and (max-width: 600px) {
+  .container-txt{
+    margin: 0px !important;
+    width: 90%;
+  }
+  .flexbox {
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .log {
+    padding-top: 25px;
+  }
+}
+
+  .bckgd-icon {
+    background-color: grey;
+    color: #39475B;
+    border-radius: 50%;
+  }
+
+
+.login {
+  text-decoration: underline;
+  color: #39475B;
+}
+
+  .icon {
+    text-align : center;
+    margin: auto;
+    vertical-align: middle;
+    display: block;
+    padding-top: 8px;
+    margin-left: 8px;
+    width: 50px;
+    height: 50px;
+  }
+
   .banner {
     background-size: cover;
     background-position: center;
-    padding: 150px 0;
+    padding: 36px 0;
   }
   
   .banner h1 {
@@ -22,22 +69,29 @@
   }
   
   .banner p {
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     opacity: .7;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    text-align: justify;
   }
 
   .btn-flat {
-    color: white;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
     padding: 8px 24px;
-    border-radius: 4px;
-    background: #1EDD88;
+    border-radius: 14px;
+    background: #39475B;
     transition: background 0.3s ease;
+    justify-content: center;
+    display:table;
+    margin: 0 auto;
   }
   
   .btn-flat:hover {
-    background: #1BCB7F;
+    background: #556172;
     color: white;
   }
 
@@ -57,22 +111,22 @@
     color: white;
   }
 
-  .bg-white{
-    /* background: rgba(255, 255, 255, 0.171);                         White background */
-    padding: 30px;                             /* Internal space */
-    /* border-radius: 4px;                        Small radius */
-    /* box-shadow: 0 10px 30px rgba(0,0,0,.1);    Light shadow */
-    
+  .bckg-white {
+    background-color: rgba(255,255,255,0.5);
+    padding: 30px;                             
   }
 
-body p {
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 64px;
+    padding-bottom: 20px;
 }
 
 .btn {
