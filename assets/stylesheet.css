@@ -1,5 +1,4 @@
 body {
-  background-color: red;
   box-sizing:border-box
 }
 .container {
@@ -20,38 +19,38 @@ body {
     margin-bottom: 50px;
   }
 
-  .container-soutien {
-    padding-top: 40px;
-    display: flex;
-    flex-direction: row;
-    margin: 1rem;
+.container-soutien {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  
+  > * {
+    margin: 0 0.5rem;
     
-    > * {
-      margin: 0 0.5rem;
-      
-      &:nth-child(1) {
-        width: calc(100% / 3 * 2);
-      }
-      
-      &:nth-child(2) {
-        width: calc(100% / 3 * 1);
-      }
+    &:nth-child(1) {
+      width: calc(100% / 3 * 2);
+    }
+    
+    &:nth-child(2) {
+      width: calc(100% / 3 * 1);
     }
   }
+}
 
-  .container-soutien h2 {
-    margin-top: 80px;
-  }
-  .container-soutien p {
-    margin-left: 5%;
-    margin-right: 10%;
-  }
+.container-soutien h2 {
+  margin-top: 80px;
+}
+.container-soutien p {
+  margin-left: 5%;
+  margin-right: 10%;
+}
 
-  .bckgd-icon {
-    background-color: grey;
-    color: #39475B;
-    border-radius: 50%;
-  }
+.bckgd-icon {
+  background-color: grey;
+  color: #39475B;
+  border-radius: 50%;
+}
 
 
 .login {
@@ -59,81 +58,81 @@ body {
   color: #39475B;
 }
 
-  .icon {
-    text-align : center;
-    margin: auto;
-    vertical-align: middle;
-    display: block;
-    padding-top: 8px;
-    margin-left: 8px;
-    width: 50px;
-    height: 50px;
-  }
+.icon {
+  text-align : center;
+  margin: auto;
+  vertical-align: middle;
+  display: block;
+  padding-top: 8px;
+  margin-left: 8px;
+  width: 50px;
+  height: 50px;
+}
 
-  .banner {
-    background-size: cover;
-    background-position: center;
-    padding: 36px 0;
-  }
-  
-  .banner h1 {
-    margin: 0;
-    color: #39475B;
-    /* text-shadow: 1px 1px 3px rgba(0,0,0,0.2); */
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
-  .banner p {
-    font-size: 18px;
-    line-height: 26px;
-    color: black;
-    opacity: .7;
-    /* text-shadow: 1px 1px 3px rgba(0,0,0,0.2); */
-    text-align: justify;
-  }
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 36px 0;
+}
 
-  .btn-flat {
-    color: whitesmoke;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    padding: 8px 24px;
-    border-radius: 14px;
-    background: #39475B;
-    transition: background 0.3s ease;
-    justify-content: center;
-    display:table;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
-  }
-  
-  .btn-flat:hover {
-    background: #556172;
-    color: white;
-  }
+.banner h1 {
+  margin: 0;
+  color: #39475B;
+  /* text-shadow: 1px 1px 3px rgba(0,0,0,0.2); */
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+  opacity: .7;
+  /* text-shadow: 1px 1px 3px rgba(0,0,0,0.2); */
+  text-align: justify;
+}
+
+.btn-flat {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 24px;
+  border-radius: 14px;
+  background: #39475B;
+  transition: background 0.3s ease;
+  justify-content: center;
+  display:table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.btn-flat:hover {
+  background: #556172;
+  color: white;
+}
 
 
-  .btn-gradient {
-    color: rgba(255, 255, 255, 0.514);
-    padding: 8px 24px;
-    border-radius: 4px;
-    font-weight: bold;
-    background: linear-gradient(#167FFB, #0F60C4);
-    transition: background 0.3s ease;
-    border: 1px solid #0F60C4;
-  }
-  
-  .btn-gradient:hover {
-    background: linear-gradient(#147EFF, #0F67DA);
-    color: white;
-  }
+.btn-gradient {
+  color: rgba(255, 255, 255, 0.514);
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
 
-  .bckg-white {
-    background-color: rgba(255,255,255,0.5);
-    padding: 30px;                             
-  }
+.btn-gradient:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}
+
+.bckg-white {
+  background-color: rgba(255,255,255,0.5);
+  padding: 30px;                             
+}
 
 
 
@@ -178,8 +177,8 @@ h2 {
 .link-footer {
   color: #AC5E64;
   display:block;
-width:400px;
-margin:0 auto;
+  width:260px;
+  margin:0 auto;
 }
 
 .hand {
@@ -190,11 +189,6 @@ margin:0 auto;
   top: 684px;
 }
 
-* {
-  margin:0;
-  padding:0;
-  box-sizing:border-box
-}
 .item_description {
   width:100%;
 }
@@ -217,21 +211,13 @@ margin:0 auto;
   text-align:center;
   padding:20px;
 }
-@media (max-width:600px) {
-  .desc, .image {
-    float:none;
-    height: 100%;
-    width:100%;
-  }
-}
+
 
   /* Mobile view */
-  @media screen and (max-width: 1300px) {
-    
+  @media screen and (max-width: 1300px) {   
         .hand {
           display: none;
         }
-
   }
 
   @media screen and (max-width: 768px) {
@@ -246,7 +232,6 @@ margin:0 auto;
       width:auto;
       height: 100%;
     }
-
     .container {
       width: 110% !important;
     }
@@ -254,24 +239,29 @@ margin:0 auto;
       margin: 0px !important;
       width: 90%;
     }
+    .container-txt-2 {
+      width: 110%;
+    }
     .flexbox {
       justify-content: center;
       margin-top: 25px;
       margin-bottom: 70px;
     }
-
     p {
       margin-left: 18px;
     }
-
+    .desc, .image {
+      float:none;
+      height: 100%;
+      width:100%;
+    }
     .log {
-      padding-top: 25px;
+      padding: 25px;
     }
     .tabs img {
       width:110%;
       height: 110%;
     }
-
     .tabs {
       left: 38% !important;
       transform: translateX(-37%) !important;
@@ -288,30 +278,6 @@ margin:0 auto;
     }
   }
 
-
-/* @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400'; */
-/* colors */
-/* tab setting */
-/* breakpoints */
-/* selectors relative to radio inputs */
-/* html {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  background: #efefef;
-  color: #333;
-  font-family: "Raleway";
-  height: 100%;
-}
-body h1 {
-  text-align: center;
-  color: #428BFF;
-  font-weight: 300;
-  padding: 40px 0 20px 0;
-  margin: 0;
-} */
 
 .tabs {
   left: 40%;
